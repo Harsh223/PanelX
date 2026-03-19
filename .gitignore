@@ -1,0 +1,59 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Node.js
+node_modules/
+.npm/
+.pnpm-store/
+apps/web-console/node_modules/
+apps/web-console/dist/
+apps/web-console/.vite/
+apps/web-console/tsconfig.tsbuildinfo
+
+# Go
+bin/
+*.test
+*.out
+coverage.out
+
+# Build/Release artifacts
+dist/
+build/
+out/
+release/
+
+# Temporary/cache
+.cache/
+.tmp/
+tmp/
+plans/
+docs/
+
+# PanelX runtime artifacts (local/deployment)
+/opt/
+/etc/panelx/
+/var/www/panelx/
+
+# Test artifacts
+junit.xml
+coverage/
